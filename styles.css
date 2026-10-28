@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* Fondo oscuro moderno (tipo azul noche) */
+    color: #e2e8f0;            /* Texto claro */
+    line-height: 1.6;
+}
+
+/* --- CABECERA Y NAVEGACIÓN --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #38bdf8;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #38bdf8;
+}
+
+/* --- SECCIÓN HERO / INICIO --- */
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f8fafc;
+}
+
+.resaltado {
+    color: #38bdf8;
+}
+
+.hero p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Botones de acción (CV y LinkedIn) */
+.botones-accion {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-linkedin {
+    background-color: #0a66c2;
+}
+
+.btn-linkedin:hover {
+    background-color: #084e96;
+}
+
+/* --- SECCIÓN DE PROYECTOS --- */
+.seccion-proyectos {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.seccion-proyectos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #f8fafc;
+}
+
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.tarjeta {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+}
+
+.tarjeta h3 {
+    margin-bottom: 0.5rem;
+    color: #f8fafc;
+}
+
+.tarjeta p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.enlace-repo {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.enlace-repo:hover {
+    text-decoration: underline;
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e293b;
+    border-top: 1px solid #334155;
+    color: #64748b;
+    margin-top: 4rem;
+}

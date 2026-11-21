@@ -6,12 +6,11 @@
 }
 
 body {
-    background-color: #0f172a; /* Fondo oscuro moderno (tipo azul noche) */
-    color: #e2e8f0;            /* Texto claro */
+    background-color: #0f172a;
+    color: #e2e8f0;
     line-height: 1.6;
 }
 
-/* --- CABECERA Y NAVEGACIÓN --- */
 header {
     display: flex;
     justify-content: space-between;
@@ -46,7 +45,6 @@ header nav a:hover {
     color: #38bdf8;
 }
 
-/* --- SECCIÓN HERO / INICIO --- */
 .hero {
     text-align: center;
     padding: 5rem 1rem;
@@ -70,7 +68,6 @@ header nav a:hover {
     margin-bottom: 2rem;
 }
 
-/* Botones de acción (CV y LinkedIn) */
 .botones-accion {
     display: flex;
     justify-content: center;
@@ -101,7 +98,6 @@ header nav a:hover {
     background-color: #084e96;
 }
 
-/* --- SECCIÓN DE PROYECTOS --- */
 .seccion-proyectos {
     padding: 4rem 2rem;
     max-width: 1000px;
@@ -156,7 +152,6 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* --- FOOTER --- */
 footer {
     text-align: center;
     padding: 2rem;

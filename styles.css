@@ -47,7 +47,7 @@ header nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 3rem;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -96,6 +96,40 @@ header nav a:hover {
 
 .btn-linkedin:hover {
     background-color: #084e96;
+}
+
+.seccion-sobre-mi {
+    padding: 3rem 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seccion-sobre-mi h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #f8fafc;
+}
+
+.tarjeta-sobre-mi {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 1.75rem;
+    border-radius: 8px;
+}
+
+.tarjeta-sobre-mi p {
+    color: #cbd5e1;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-sobre-mi p:last-child {
+    margin-bottom: 0;
+}
+
+.tarjeta-sobre-mi strong {
+    color: #38bdf8;
 }
 
 .seccion-proyectos {

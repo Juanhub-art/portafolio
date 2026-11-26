@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #0f172a;
-    color: #e2e8f0;
+    background-color: #130b24;
+    color: #ede9fe;
     line-height: 1.6;
 }
 
@@ -16,8 +16,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem 2rem;
-    background-color: #1e293b;
-    border-bottom: 1px solid #334155;
+    background-color: #21133d;
+    border-bottom: 1px solid #4c1d95;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -26,7 +26,7 @@ header {
 .logo {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 header nav {
@@ -35,14 +35,14 @@ header nav {
 }
 
 header nav a {
-    color: #94a3b8;
+    color: #c4b5fd;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 .hero {
@@ -55,15 +55,15 @@ header nav a:hover {
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #f8fafc;
+    color: #faf5ff;
 }
 
 .resaltado {
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 .hero p {
-    color: #94a3b8;
+    color: #c4b5fd;
     font-size: 1.1rem;
     margin-bottom: 2rem;
 }
@@ -78,7 +78,7 @@ header nav a:hover {
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #2563eb;
+    background-color: #7e22ce;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -87,15 +87,15 @@ header nav a:hover {
 }
 
 .btn:hover {
-    background-color: #1d4ed8;
+    background-color: #6b21a8;
 }
 
 .btn-linkedin {
-    background-color: #0a66c2;
+    background-color: #5b21b6;
 }
 
 .btn-linkedin:hover {
-    background-color: #084e96;
+    background-color: #4c1d95;
 }
 
 .seccion-sobre-mi {
@@ -108,18 +108,18 @@ header nav a:hover {
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 2rem;
-    color: #f8fafc;
+    color: #faf5ff;
 }
 
 .tarjeta-sobre-mi {
-    background-color: #1e293b;
-    border: 1px solid #334155;
+    background-color: #21133d;
+    border: 1px solid #4c1d95;
     padding: 1.75rem;
     border-radius: 8px;
 }
 
 .tarjeta-sobre-mi p {
-    color: #cbd5e1;
+    color: #ddd6fe;
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -129,7 +129,7 @@ header nav a:hover {
 }
 
 .tarjeta-sobre-mi strong {
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 .seccion-proyectos {
@@ -142,7 +142,7 @@ header nav a:hover {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #f8fafc;
+    color: #faf5ff;
 }
 
 .contenedor-tarjetas {
@@ -152,8 +152,8 @@ header nav a:hover {
 }
 
 .tarjeta {
-    background-color: #1e293b;
-    border: 1px solid #334155;
+    background-color: #21133d;
+    border: 1px solid #4c1d95;
     padding: 1.5rem;
     border-radius: 8px;
     transition: transform 0.3s ease, border-color 0.3s ease;
@@ -161,16 +161,16 @@ header nav a:hover {
 
 .tarjeta:hover {
     transform: translateY(-4px);
-    border-color: #38bdf8;
+    border-color: #c084fc;
 }
 
 .tarjeta h3 {
     margin-bottom: 0.5rem;
-    color: #f8fafc;
+    color: #faf5ff;
 }
 
 .tarjeta p {
-    color: #94a3b8;
+    color: #c4b5fd;
     font-size: 0.95rem;
     margin-bottom: 1rem;
 }
@@ -183,9 +183,9 @@ header nav a:hover {
 }
 
 .badge-tech {
-    background-color: #0f172a;
-    color: #38bdf8;
-    border: 1px solid #334155;
+    background-color: #130b24;
+    color: #c084fc;
+    border: 1px solid #4c1d95;
     padding: 0.25rem 0.6rem;
     border-radius: 999px;
     font-size: 0.8rem;
@@ -193,7 +193,7 @@ header nav a:hover {
 }
 
 .enlace-repo {
-    color: #38bdf8;
+    color: #c084fc;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
@@ -206,8 +206,8 @@ header nav a:hover {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #1e293b;
-    border-top: 1px solid #334155;
-    color: #64748b;
+    background-color: #21133d;
+    border-top: 1px solid #4c1d95;
+    color: #a78bfa;
     margin-top: 4rem;
 }

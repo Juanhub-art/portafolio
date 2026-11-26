@@ -14,6 +14,7 @@
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
@@ -22,7 +23,7 @@
         <p>Bienvenido a mi portafolio web personal. Acá vas a encontrar mis proyectos y mi trayectoria.</p>
         
         <div class="botones-accion">
-            <a href="cv.pdf" target="_blank" class="btn">Ver Currículum (CV)</a>
+            <a href="cv.pdf" target="_blank" id="btn-ver-cv" class="btn">Ver Currículum (CV)</a>
             <a href="https://www.linkedin.com/in/juan-bautista-iglesias-b708a3447/" target="_blank" class="btn btn-linkedin">LinkedIn</a>
         </div>
     </section>
@@ -69,7 +70,19 @@
         </div>
     </section>
 
-    <footer id="contacto">
+    <section id="contacto" class="seccion-contacto">
+        <h2>Contacto</h2>
+        <div class="tarjeta-contacto">
+            <p>Si querés comunicarte conmigo por proyectos o consultas, escribime a:</p>
+            <div class="caja-correo">
+                <span id="correo-texto" class="correo-direccion">iglesiasjuanbautista2@gmail.com</span>
+                <button type="button" id="btn-copiar-correo" class="btn btn-copiar">Copiar correo</button>
+            </div>
+            <p id="estado-copiado" class="estado-copiado" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <footer>
         <p>© 2026 - Creado para la Tecnicatura en Programación</p>
     </footer>
 

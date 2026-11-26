@@ -203,6 +203,63 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+.seccion-contacto {
+    padding: 2rem 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seccion-contacto h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #faf5ff;
+}
+
+.tarjeta-contacto {
+    background-color: #21133d;
+    border: 1px solid #4c1d95;
+    padding: 1.75rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tarjeta-contacto p {
+    color: #ddd6fe;
+    margin-bottom: 1rem;
+}
+
+.caja-correo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.correo-direccion {
+    background-color: #130b24;
+    border: 1px solid #4c1d95;
+    color: #c084fc;
+    padding: 0.65rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-copiar {
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.estado-copiado {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    min-height: 1.2rem;
+    font-size: 0.9rem;
+    color: #c084fc;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
